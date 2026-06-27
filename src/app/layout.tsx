@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   description: "Passionate full-stack developer skilled in JavaScript, Node.js, React, and MongoDB.",
   openGraph: {
     type: "website",
-    url: "https://zaheerahmed.com",
+    url: "https://zaheer.tech",
     title: "Zaheer Ahmed - Portfolio",
-    images: ["https://zaheerahmed.com/img/me.webp"],
+    images: ["https://zaheer.tech/img/me.webp"],
   },
   icons: {
     shortcut: "/svg/code.svg",

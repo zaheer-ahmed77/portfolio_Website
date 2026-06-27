@@ -31,7 +31,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-gray-200">
-        <p>Made with ❤️ using Next.js © {new Date().getFullYear()}</p>
+        <p>Made By {User.name} using Next.js © {new Date().getFullYear()}</p>
         <p className="sm:block hidden">{User.title}</p>
       </div>
     </footer>
