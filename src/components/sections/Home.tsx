@@ -15,16 +15,16 @@ export default function Home() {
       <div className="relative z-10 sm:px-6 px-4 py-4 h-full flex flex-col justify-start">
         <Header />
 
-        <div className="text-center sm:mt-8 mt-28 relative">
+        <div className="text-center sm:mt-8 mt-24 relative">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500/20 rounded-full blur-[100px] -z-10"></div>
-          <h2 className="md:text-[4.6rem] sm:text-6xl text-5xl leading-[1.10] font-bold gradient-text pb-2">{User.name}</h2>
-          <p className="md:text-5xl sm:text-4xl text-3xl sm:mt-0 mt-2 font-bold text-gray-800 dark:text-gray-200">{User.title}</p>
-          <p className=" md:text-2xl sm:text-xl text-lg text-gray-600 dark:text-gray-400 mt-6">{User.intro}</p>
+          <h2 className="md:text-[4.6rem] sm:text-6xl text-4xl leading-[1.10] font-bold gradient-text pb-2 whitespace-nowrap">{User.name}</h2>
+          <p className="md:text-5xl sm:text-4xl text-2xl sm:mt-0 mt-2 font-bold text-gray-800 dark:text-gray-200">{User.title}</p>
+          <p className="md:text-2xl sm:text-xl text-base text-gray-600 dark:text-gray-400 mt-6 px-2">{User.intro}</p>
         </div>
-        <div className="mt-15 space-x-6 flex justify-center items-center">
+        <div className="mt-10 sm:mt-14 flex justify-center items-center gap-4 sm:gap-6">
           <Link
             href="#contact"
-            className="glass-panel py-3 px-8 text-lg flex items-center justify-center font-semibold rounded-full hover:bg-black/10 dark:hover:bg-white/10 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)] transition-all duration-300 text-gray-900 dark:text-white"
+            className="glass-panel py-3 px-6 sm:px-8 text-base sm:text-lg flex items-center justify-center font-semibold rounded-md hover:bg-black/10 dark:hover:bg-white/10 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)] transition-all duration-300 text-gray-900 dark:text-white whitespace-nowrap"
           >
             Get in Touch
           </Link>
@@ -32,7 +32,7 @@ export default function Home() {
           <a
             href="/pdf/resume.pdf"
             download={`${User.name.split(" ").join("_")}_Resume.pdf`}
-            className="py-3 px-8 flex items-center gap-2 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-violet-600 text-white hover:opacity-90 hover:shadow-[0_0_20px_rgba(139,92,246,0.6)] transition-all duration-300"
+            className="py-3 px-6 sm:px-8 flex items-center justify-center gap-2 text-base sm:text-lg font-semibold rounded-md bg-gradient-to-r from-blue-500 to-violet-600 text-white hover:opacity-90 hover:shadow-[0_0_20px_rgba(139,92,246,0.6)] transition-all duration-300 whitespace-nowrap"
           >
             <Icon icon="bx:file" className="w-5.5 h-5.5" /> Resume
           </a>
