@@ -8,11 +8,15 @@ type Props = {
   message: string;
 };
 
-const resend = new Resend(process.env.RESEND_EMAIL_API_KEY);
+let resend: Resend | null = null;
 
 export async function sendemail({ name, email, message }: Props) {
   if (!process.env.RESEND_EMAIL_API_KEY) {
     throw new Error("RESEND_EMAIL_API_KEY missing");
+  }
+
+  if (!resend) {
+    resend = new Resend(process.env.RESEND_EMAIL_API_KEY);
   }
 
   if (!process.env.SENDER_EMAIL || !process.env.RECEIVING_EMAIL) {
