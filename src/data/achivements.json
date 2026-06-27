@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "time": "Dec 2022 – Dec 2026",
+      "name": "Bachelor’s in Software Engineering",
+      "place": "Mehran University of Engineering and Technology — Jamshoro, Pakistan",
+      "url": "https://www.muet.edu.pk/",
+      "shortDesc": "Core subjects included Software Engineering, Web Technologies, Database Architecture, AI, and Systems Design.",
+      "KeyAchievement": [
+        "Designed and deployed various real-time systems and web applications as part of academic projects.",
+        "Acquired strong foundational knowledge in DSA, complex system design, and industry-standard software development lifecycles."
+      ]
+    },
+    {
+      "id": 2,
+      "time": "Dec 2025",
+      "name": "Meta Full-Stack Developer Frontend and Backend from Scratch",
+      "place": "Coursera",
+      "url": "",
+      "shortDesc": "An intensive certification program covering modern frontend frameworks and scalable backend integrations.",
+      "KeyAchievement": []
+    },
+    {
+      "id": 3,
+      "time": "Oct 2025",
+      "name": "Pak Angels’ PEC Generative AI Training Course - Top Performer Certificate",
+      "place": "Pakistan Engineering Council",
+      "url": "",
+      "shortDesc": "Recognized as a Top Performer during an advanced Generative AI workshop.",
+      "KeyAchievement": []
+    },
+    {
+      "id": 4,
+      "time": "Aug 2025",
+      "name": "Agile Project Management – Certification",
+      "place": "HP Foundation",
+      "url": "",
+      "shortDesc": "Certified in implementing Agile frameworks and iterative project management strategies.",
+      "KeyAchievement": []
+    },
+    {
+      "id": 5,
+      "time": "2025",
+      "name": "Google AI Essentials",
+      "place": "Coursera",
+      "url": "",
+      "shortDesc": "Explored core Artificial Intelligence paradigms and modern AI tools developed by Google.",
+      "KeyAchievement": []
+    },
+    {
+      "id": 6,
+      "time": "Jul 2023",
+      "name": "Web Development Course",
+      "place": "NFTP",
+      "url": "https://nftp.pitb.gov.pk/",
+      "shortDesc": "Mastered the fundamentals of web programming.",
+      "KeyAchievement": [
+        "Gained hands-on experience with core web technologies including HTML, CSS, and JavaScript.",
+        "Developed a clear understanding of server-side operations and RESTful API development.",
+        "Learned relational database management and optimized data structuring using MySQL."
+      ]
+    }
+]

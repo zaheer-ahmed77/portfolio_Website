@@ -1,0 +1,21 @@
+export const SKILLS = [
+    { name: "Node.js", icon: "logos:nodejs-icon" },
+    { name: "Express.js", icon: "logos:express", dark: "simple-icons:express" },
+    { name: "Redis", icon: "logos:redis" },
+    { name: "MongoDB", icon: "logos:mongodb-icon" },
+    { name: "PostgreSQL", icon: "logos:postgresql" },
+    { name: "MySQL", icon: "logos:mysql" },
+    { name: "React.js", icon: "logos:react" },
+    { name: "Next.js", icon: "logos:nextjs-icon", dark: "skill-icons:nextjs-dark" },
+    { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
+    { name: "JavaScript", icon: "logos:javascript" },
+    { name: "TypeScript", icon: "logos:typescript-icon" },
+    { name: "Nginx", icon: "logos:nginx" },
+    { name: "GitHub Actions", icon: "devicon:githubactions" },
+    { name: "Python", icon: "logos:python" },
+    { name: "Fast API", icon: "devicon:fastapi" },
+    { name: "Machine Learning", icon: "carbon:machine-learning-model" },
+    { name: "Deep Learning", icon: "mdi:brain" },
+    { name: "System Design", icon: "carbon:data-structured" },
+    { name: "Problem Solving", icon: "carbon:logic-opt" }
+];

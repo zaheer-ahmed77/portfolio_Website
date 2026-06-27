@@ -1,0 +1,24 @@
+{
+  "name": "Zaheer Ahmed",
+  "title": "Full Stack Developer",
+  "intro": "Crafting dynamic, high-performance web applications with a focus on scalability and user experience.",
+  "location": "Pakistan",
+  "contact": {
+    "phone": "+92 3252399549",
+    "email": "za5528788@gmail.com"
+  },
+  "social": {
+    "github": {
+      "userName": "zaheer-ahmed77",
+      "url": "https://github.com/zaheer-ahmed77",
+      "reposFetchLimit": 20
+    },
+    "linkedin": "https://linkedin.com/in/zaheer-ahmed77/",
+    "leetcode": ""
+  },
+  "about": [
+    "I am a dedicated Full-Stack Developer, passionate about architecting scalable and modern web ecosystems.",
+    "My technical expertise spans across Next.js, React, Node.js, and modern databases like MongoDB and PostgreSQL, enabling me to build seamless end-to-end solutions.",
+    "I thrive on writing clean, maintainable code, optimizing performance bottlenecks, and collaborating with cross-functional teams to bring innovative ideas to life."
+  ]
+}
