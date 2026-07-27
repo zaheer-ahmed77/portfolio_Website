@@ -35,6 +35,17 @@ export default async function Projects() {
       updated_at: new Date().toISOString(),
       full_name: "zaheer-ahmed77/NeuroMed",
       homepage: ""
+    },
+    {
+      name: "Zaheer's AI",
+      html_url: "https://github.com/zaheer-ahmed77/zaheers-ai",
+      description: "Built a powerful, full-stack AI platform featuring a Multi-Model Agent supporting GPT-4o, Gemini 2.0 Pro, and Llama 3.3. Integrated real-time web search, RAG capabilities with Pinecone, and secure authentication via Clerk, all powered by a robust Hono and Node.js backend.",
+      topics: ["react", "vite", "tailwind-css", "hono", "node.js", "prisma", "postgresql", "pinecone", "redis", "langchain", "clerk"],
+      fork: false,
+      created_at: "2026-07-01T00:00:00Z",
+      updated_at: new Date().toISOString(),
+      full_name: "zaheer-ahmed77/zaheers-ai",
+      homepage: ""
     }
   ];
 
