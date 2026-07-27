@@ -11,19 +11,33 @@ export default async function Projects() {
     updated_at: string;
     full_name: string;
     homepage: string;
+    image?: string;
   };
 
   const filtered: Repo[] = [
     {
+      name: "Zaheer's AI",
+      html_url: "https://github.com/zaheer-ahmed77/zaheers-ai",
+      description: "Built a powerful, full-stack AI platform featuring a Multi-Model Agent supporting GPT-4o, Gemini 2.0 Pro, and Llama 3.3. Integrated real-time web search, RAG capabilities with Pinecone, and secure authentication via Clerk, all powered by a robust Hono and Node.js backend.",
+      topics: ["react", "vite", "tailwind-css", "hono", "node.js", "prisma", "postgresql", "pinecone", "redis", "langchain", "clerk"],
+      fork: false,
+      created_at: "2026-07-01T00:00:00Z",
+      updated_at: new Date().toISOString(),
+      full_name: "zaheer-ahmed77/zaheers-ai",
+      homepage: "https://ai.zaheer.tech",
+      image: "/img/Zaheer-AI.webp"
+    },
+    {
       name: "Medinsight",
-      html_url: "https://github.com/zaheer-ahmed77/Medinsight",
-      description: "Developed an AI-driven medical information platform leveraging Next.js and React. Integrated OpenAI's API for intelligent medical assistance, secured with Clerk authentication, and optimized with lightweight JSON storage.",
-      topics: ["next.js", "react.js", "clerk", "openai-api", "html5", "css3", "javascript"],
+      html_url: "https://github.com/zaheer-ahmed77/Medinsight-Web",
+      description: "Developed an AI-driven medical information platform leveraging Next.js and React. Integrated OpenRouter's API for intelligent medical assistance, secured with Clerk authentication, and optimized with Neon Database.",
+      topics: ["next.js", "react.js", "clerk", "openrouter", "neon-database", "html5", "css3", "javascript"],
       fork: false,
       created_at: "2025-01-01T00:00:00Z",
       updated_at: "2025-02-01T00:00:00Z",
-      full_name: "zaheer-ahmed77/Medinsight",
-      homepage: ""
+      full_name: "zaheer-ahmed77/Medinsight-Web",
+      homepage: "https://med.zaheer.tech",
+      image: "/img/medinsight.webp"
     },
     {
       name: "NeuroMed",
@@ -34,17 +48,6 @@ export default async function Projects() {
       created_at: "2026-01-01T00:00:00Z",
       updated_at: new Date().toISOString(),
       full_name: "zaheer-ahmed77/NeuroMed",
-      homepage: ""
-    },
-    {
-      name: "Zaheer's AI",
-      html_url: "https://github.com/zaheer-ahmed77/zaheers-ai",
-      description: "Built a powerful, full-stack AI platform featuring a Multi-Model Agent supporting GPT-4o, Gemini 2.0 Pro, and Llama 3.3. Integrated real-time web search, RAG capabilities with Pinecone, and secure authentication via Clerk, all powered by a robust Hono and Node.js backend.",
-      topics: ["react", "vite", "tailwind-css", "hono", "node.js", "prisma", "postgresql", "pinecone", "redis", "langchain", "clerk"],
-      fork: false,
-      created_at: "2026-07-01T00:00:00Z",
-      updated_at: new Date().toISOString(),
-      full_name: "zaheer-ahmed77/zaheers-ai",
       homepage: ""
     }
   ];

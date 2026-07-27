@@ -13,6 +13,7 @@ type projectInterface = {
   topics: string[];
   name: string;
   homepage: string;
+  image?: string;
 };
 
 type Props = {
@@ -65,7 +66,7 @@ export default function ProjectCard({ project }: Props) {
     <div className="relative group mt-14 grid md:grid-cols-3 grid-cols-1 gap-4 md:gap-7 justify-between items-center transition-all duration-500 ease-in-out transform hover:scale-[1.02] glass-panel p-4 rounded-2xl hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]">
       <div className="relative md:col-span-1 w-full h-44 sm:h-44 overflow-hidden rounded-xl shadow-lg border border-white/5">
         <Image
-          src={GenerateImageUrl(project.full_name)}
+          src={project.image || GenerateImageUrl(project.full_name)}
           alt={project.name}
           fill
           unoptimized
